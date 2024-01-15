@@ -3,12 +3,11 @@
 Summary:	UML diagramming tool for KDE
 Name:		plasma6-umbrello
 Version:	24.01.90
-Release:	2
+Release:	1
 Group:		Graphical desktop/KDE
 License:	GPLv2+
 Url:		http://www.kde.org
 Source0:	http://download.kde.org/%{stable}/release-service/%{version}/src/umbrello-%{version}.tar.xz
-Source10:	umbrello.rpmlintrc
 Patch0:		umbrello-20.03.80-llvm-10.patch
 BuildRequires:	boost-devel
 BuildRequires:	pkgconfig(libxml-2.0)
