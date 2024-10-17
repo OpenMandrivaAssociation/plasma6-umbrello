@@ -9,7 +9,7 @@ Version:	24.08.1
 Release:	%{?git:0.%{git}.}1
 Group:		Graphical desktop/KDE
 License:	GPLv2+
-Url:		http://www.kde.org
+Url:		https://www.kde.org
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/sdk/umbrello/-/archive/%{gitbranch}/umbrello-%{gitbranchd}.tar.bz2#/umbrello-%{git}.tar.bz2
 %else
